@@ -1,0 +1,20 @@
+.placeholder {
+     background: grey;
+     border: 6px solid black;
+     min-height: 100px;
+ }
+.main {
+        width: 60%;
+        float: left;
+    }
+.sideBar {
+        width: 20%;
+        float: left;
+    }
+.pageFooter {
+    clear: left;
+}
+.section {
+    width: 20%;
+    float: left;
+}
