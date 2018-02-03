@@ -1,0 +1,117 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+div.ocean-background {
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #f0efef;
+}
+.semibold {
+  font-weight: 600;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
+}
+
+div.header-logo {  
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 80px; 
+  padding-left: 22%; 
+}
+
+div.centerMessage {
+  
+  font-size: 24px;
+  padding-top: 80px;
+   /* padding-left: 25%;  */
+}
+div.yellowButton {
+  background-color: #f9e42e;
+  width: 110px; 
+  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 46%;  
+  border-radius: 5px;
+  text-align: center;
+  color: #033048;
+}
+div.align-center{
+  text-align: center;
+}
+
+div.benefits {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+div.personalAssistent {
+  font-size: 13px;
+  font-weight: lighter; 
+}
+div.list {
+  font-size: 13px;
+}
+div.benefit-section {
+  color: #121212;
+}
+
+div.testimonialSection {
+  font-size: 18px; 
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+p.quote {
+  font-style: Italic;
+}
+div.signupSection {
+  background-color: #f9e42e;
+  height: 100px;
+}
+div.blueBtn {
+  width: 120px; 
+  font-size: 12px;
+  margin-left: 46%;  
+  border-radius: 5px;
+  text-align: center;
+  background-color: #033048;
+}
+div.footerSection {
+  background-color: #121212;
+  height: 300px;
+}
+div.footerlogo {
+  color: #f9e42e;
+  font-size: 24px;
+}
+
+div.copyright {
+  font-size: 9px;
+}
